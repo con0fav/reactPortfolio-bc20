@@ -1,31 +1,42 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Switch, Link, withRouter } from "react-router-dom";
 
-function Nav() {
+function Nav(props) {
 
     return (
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                    </ul>
+        <div className="navigation">
+            <nav class="navbar navbar-expand navbar-dark bg-dark">
+                <div class="container">
+                    <Link class="navbar-brand" to="/">
+                        Connor Favero React Portfolio
+                    </Link>
+
+                    <div>
+                        <ul class="navbar-nav ml-auto">
+                            <li
+                                class={`nav-item  ${props.location.pathname === "/" ? "active" : ""
+                                    }`}
+                            >
+                                <Link class="nav-link" to="/">
+                                    Home
+                                <span class="sr-only">(current)</span>
+                                </Link>
+                            </li>
+                            <li
+                                class={`nav-item  ${props.location.pathname === "/projects" ? "active" : ""
+                                    }`}
+                            >
+                                <Link class="nav-link" to="/projects">
+                                    Projects
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    )
+            </nav>
+        </div>
+    );
 
 }
 
-export default Nav;
+export default withRouter(Nav);

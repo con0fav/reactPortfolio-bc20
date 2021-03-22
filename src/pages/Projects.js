@@ -1,5 +1,6 @@
 import React from 'react';
-import Project from '../components/project'
+import Project from '../components/project';
+import Header from '../components/jumbotron';
 
 function ProjectPage() {
 
@@ -18,6 +19,7 @@ function ProjectPage() {
                     <Project text="Workout Tracker" href="https://github.com/con0fav/workoutTracker-bc17" alt="Workout Tracker"/>
                 </div>
             </div>
+            <Header />
         </div>
 
     )

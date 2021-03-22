@@ -1,12 +1,12 @@
 import './App.css';
 import Jumbotron from './components/jumbotron';
-import Card from './components/card'
+import Project from './components/project'
 
 function App() {
   return (
     <div className="container">
       <Jumbotron/>
-      <Card/>
+      <Project/>
     </div>
   );
 }

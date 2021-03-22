@@ -1,6 +1,6 @@
 import React from "react";
 
-function Jumbotron() {
+function Header() {
   return (
     <div className="jumbotron">
       <h1>Connor Favero Portfolio</h1>
@@ -11,4 +11,4 @@ function Jumbotron() {
   );
 }
 
-export default Jumbotron;
+export default Header;

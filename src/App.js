@@ -1,13 +1,22 @@
+import React from "react";
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import './App.css';
-import Jumbotron from './components/jumbotron';
-import Project from './components/project'
+import Header from './components/jumbotron';
+import About from './components/about';
+
 
 function App() {
   return (
-    <div className="container">
-      <Jumbotron/>
-      <Project/>
-    </div>
+
+    <Router>
+
+      <div className="container">
+        <Header />
+        <About />
+      </div>
+
+    </Router>
+
   );
 }
 

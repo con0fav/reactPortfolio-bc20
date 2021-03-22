@@ -1,16 +1,15 @@
 import React from "react";
 
-function Project() {
 
+function Project(props) {
     return (
-
         <div class="container">
-
             <div class="card mb-3">
-                <img src="..." class="card-img-top" alt="..." />
+                <a href={props.href}>
+                <img src="..." class="card-img-top" alt={props.alt} />
+                </a>
                 <div class="card-body">
-                    <h5 class="card-title">Project Name</h5>
-                    <p class="card-text">Brief project description.</p>
+                    <h5 class="card-title">{props.text}</h5>
                 </div>
             </div>
         </div>

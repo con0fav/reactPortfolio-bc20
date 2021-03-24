@@ -1,6 +1,7 @@
 import React from 'react';
 import Project from '../components/project';
 import Header from '../components/jumbotron';
+import Assets from '../assets/img'
 
 function ProjectPage() {
 

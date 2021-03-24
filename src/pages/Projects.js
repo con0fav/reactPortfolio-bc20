@@ -2,6 +2,9 @@ import React from 'react';
 import Project from '../components/project';
 import Header from '../components/jumbotron';
 
+import TouristImg from '../images/touristsim.JPG';
+
+
 function ProjectPage() {
 
     return (
@@ -9,8 +12,8 @@ function ProjectPage() {
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <Project text="Tourist Simulator" href="https://github.com/themancalledzac/Tourist-Simulator" alt="Tourist Simulator" />
-                    <Project text="Songbirdie" href="https://github.com/Bryson-Palmer/song-bird" alt="Songbirdie"/>
+                    <Project text="Tourist Simulator" href="https://github.com/themancalledzac/Tourist-Simulator" alt="Tourist Simulator" img={TouristImg}/>
+                    <Project text="Songbirdie" href="https://github.com/Bryson-Palmer/song-bird" alt="Songbirdie" />
                     <Project text="Da Burg" href="https://github.com/con0fav/daBurg-bc13" alt="Da Burg"/>
                 </div>
                 <div class="col">

@@ -8,7 +8,7 @@ function Footer() {
             <footer class="bg-dark fixed-bottom">
                 <div class="container">
                     <p class="m-0 text-center text-white">
-                        Copyright &copy; Connor Favero
+                        Copyright &copy; connor.favero@gmail.com
                     </p>
                 </div>
             </footer>

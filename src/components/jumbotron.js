@@ -1,11 +1,11 @@
 import React from "react";
 
-function Header() {
+function Header(props) {
   return (
     <div className="jumbotron">
       <h1>Connor Favero Portfolio</h1>
       <p>
-        Welcome to my portfolio page.
+        {props.text}
       </p>
     </div>
   );

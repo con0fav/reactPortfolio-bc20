@@ -7,7 +7,7 @@ function Home() {
     return (
 
         <div className="container">
-            <Header />
+            <Header text="Welcome to my portfolio page."/>
             <About />
         </div>
 

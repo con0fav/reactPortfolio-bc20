@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/reactPortfolio-bc20/static/css/main.59f274ed.chunk.css",
-    "main.js": "/reactPortfolio-bc20/static/js/main.84d507c1.chunk.js",
-    "main.js.map": "/reactPortfolio-bc20/static/js/main.84d507c1.chunk.js.map",
+    "main.css": "/reactPortfolio-bc20/static/css/main.4ba2c6e2.chunk.css",
+    "main.js": "/reactPortfolio-bc20/static/js/main.02e0d246.chunk.js",
+    "main.js.map": "/reactPortfolio-bc20/static/js/main.02e0d246.chunk.js.map",
     "runtime-main.js": "/reactPortfolio-bc20/static/js/runtime-main.bca59c57.js",
     "runtime-main.js.map": "/reactPortfolio-bc20/static/js/runtime-main.bca59c57.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/reactPortfolio-bc20/static/css/2.4c97ca4f.chunk.css",
@@ -12,15 +12,20 @@
     "static/js/3.adc3e0c7.chunk.js.map": "/reactPortfolio-bc20/static/js/3.adc3e0c7.chunk.js.map",
     "index.html": "/reactPortfolio-bc20/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/reactPortfolio-bc20/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.59f274ed.chunk.css.map": "/reactPortfolio-bc20/static/css/main.59f274ed.chunk.css.map",
+    "static/css/main.4ba2c6e2.chunk.css.map": "/reactPortfolio-bc20/static/css/main.4ba2c6e2.chunk.css.map",
     "static/js/2.116d61f3.chunk.js.LICENSE.txt": "/reactPortfolio-bc20/static/js/2.116d61f3.chunk.js.LICENSE.txt",
-    "static/media/touristsim.41bedde2.JPG": "/reactPortfolio-bc20/static/media/touristsim.41bedde2.JPG"
+    "static/media/burg.c3330b5c.JPG": "/reactPortfolio-bc20/static/media/burg.c3330b5c.JPG",
+    "static/media/notetaker.76931880.JPG": "/reactPortfolio-bc20/static/media/notetaker.76931880.JPG",
+    "static/media/readmegen.13a6f7a3.JPG": "/reactPortfolio-bc20/static/media/readmegen.13a6f7a3.JPG",
+    "static/media/songbirdie.c175c419.png": "/reactPortfolio-bc20/static/media/songbirdie.c175c419.png",
+    "static/media/touristsim.41bedde2.JPG": "/reactPortfolio-bc20/static/media/touristsim.41bedde2.JPG",
+    "static/media/workouttracker.b082511f.JPG": "/reactPortfolio-bc20/static/media/workouttracker.b082511f.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.bca59c57.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.116d61f3.chunk.js",
-    "static/css/main.59f274ed.chunk.css",
-    "static/js/main.84d507c1.chunk.js"
+    "static/css/main.4ba2c6e2.chunk.css",
+    "static/js/main.02e0d246.chunk.js"
   ]
 }

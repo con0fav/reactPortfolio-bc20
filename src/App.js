@@ -16,7 +16,7 @@ function App() {
         <Nav />
         <Switch>
           <Route exact path="/projects" component={Projects}/>
-          <Route exact path="/" component={Home} />
+          <Route exact path={["/" ,"/reactPortfolio-bc20"]} component={Home} />
         </Switch>
         <Footer />
       </div>

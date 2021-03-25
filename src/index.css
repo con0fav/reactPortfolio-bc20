@@ -7,6 +7,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html body{
+  background-color: #A8DADC;
+}
+
+html .jumbotron {
+  background-color:#457B9D;
+  text-align: center;
+}
+
+html .jumbotron h1 {
+  color: #F1FAEE;
+}
+
+html .about {
+  text-align: center;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

@@ -11,6 +11,4 @@ function Header() {
   );
 }
 
-//pic of self in here
-
 export default Header;

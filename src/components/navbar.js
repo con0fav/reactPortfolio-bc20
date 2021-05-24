@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch, Link, withRouter } from "react-router-dom";
+import { BrowserRouter as Link, withRouter } from "react-router-dom";
 
 function Nav(props) {
 
@@ -41,3 +41,5 @@ function Nav(props) {
 }
 
 export default withRouter(Nav);
+
+// Router, Route, Switch, <- consider using later if needed

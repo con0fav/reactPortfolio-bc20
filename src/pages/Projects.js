@@ -15,7 +15,7 @@ function ProjectPage() {
     return (
 
         <div class="container">
-            <Header text="Here's some selected projects" />
+            <Header text="Here's some selected projects. Click the images to navigate to the Github repositories." />
             <div class="row">
                 <div class="col">
                     <Project text="Tourist Simulator" href="https://github.com/themancalledzac/Tourist-Simulator" alt="Tourist Simulator" img={TouristImg} />
